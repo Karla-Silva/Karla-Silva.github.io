@@ -1,0 +1,226 @@
+body {
+    padding: 20px;
+    margin: 0px;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Barra de navegação */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    background-color: #f8f8f8;
+    width: 100%;
+    border-bottom: 7px solid #ffed4b;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.greeting {
+    padding: 15px;
+}
+
+.menu-navigation {
+    padding-left: 50px;
+    list-style: none;
+}
+
+.menu-navigation li {
+    display: inline-block;
+}
+
+.menu-navigation a {
+    margin: 0 15px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.account {
+    margin-left: auto; 
+    padding-right: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.account a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-navigation a:hover,
+.menu-navigation a:focus,
+.account a:hover,
+.account a:focus {
+    color: #fdcd3b;
+    transition: all 0.2s ease-out;
+}
+
+/* Fim da barra de navegação */
+
+/* Main */
+main{
+    margin-top: 70px;
+    background-color:  #f8f8f8;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 20px 20px 20px;
+}
+    
+/* Main index */
+
+.align-box {
+    margin: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.left-side  {
+    text-align: left;
+    font-size: 30px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.right-side {
+    font-size: 30px;
+    align-self: right;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.img-index{
+    height: 400px;
+    width: 400px;
+}
+
+#register-button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:white;
+    background-color: #08a742;
+    border-radius: 10px;
+    border: 0px;
+    margin:20px;
+}
+
+/* Fim do main index */
+
+/* Main login */
+#main-login{
+    margin-top: 200px;
+    background-color:  #f8f8f8;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.div-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reset-password:hover{
+    color:#fdcd3b
+}
+
+/* Fim do main login */
+
+/* Fim do main */
+
+/* class botao */
+.botao{
+    color:white;
+    background-color: #000000;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+
+.botao:hover{
+    color:black;
+    background-color: #ffed4b;
+}
+/* Fim do class botao */
+
+/* Página vendas */
+
+#instrucoes{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.todas-etapas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.etapa{
+    height: 80vh;
+    width: 20vw;
+    border: 2px solid #ffed4b;
+    border-radius: 5px;
+    padding: 10px;
+    margin:2px;
+}
+
+.etapa h3{
+    text-align: center;
+}
+
+/* Fim da página de vendas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div .register-button {
+    display: flex;
+    justify-content: center;
+}
+
+div .register-button button.registration {
+    padding:0.35em 1.2em;
+    background-color: #08a742;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: none;
+    border-radius:50px;
+    box-sizing: border-box;
+    color:#fff;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+
